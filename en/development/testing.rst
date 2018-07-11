@@ -683,7 +683,8 @@ name::
     }
 
 In the above example, both fixtures would be loaded from
-``tests/Fixture/blog/``.
+``tests/Fixture/blog/``. 
+Don't forget to adapt the namespace of a fixture in a subdirectory. If you have created ArticlesFixture in directory blog, the namespace is ``App\Test\Fixture\Blog``.
 
 Testing Table Classes
 =====================
